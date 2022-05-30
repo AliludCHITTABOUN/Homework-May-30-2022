@@ -1,0 +1,59 @@
+
+
+<html>
+
+    <title>Fookbace</title>
+<body>
+    <h1>Sign your account</h1>
+    <p>
+        <input type="text" placeholder="Email or phone" id="Email">
+    </p>
+    <p>
+        <input type="Password" placeholder="Password" id="Password">
+    </p>
+    <p>
+        <button onclick="a()" value="Sign in">Sign in</button>
+
+    </p>
+
+<script>
+
+    let email = 'alice@gmail.com' // khum khuen ton nai kan pa kad tua pien
+    let password = '123456'
+    let phone = '12345678'
+
+    function a() {
+
+        let emailInput = document.getElementById('Email').value // document mod nar webrowser mod file khg html ern va  aka san 
+        let passwordInput = document.getElementById('Password').value
+
+        if((email == emailInput || emailInput == phone)  && password == passwordInput){
+        console.log("Success")
+        }
+
+        else{
+        console.log("Fail")
+        }
+
+        // if(password == passwordInput){
+        // console.log("OK")
+        // }
+
+        // else{
+        // console.log("Fail")
+        // }
+    }
+
+
+
+//mod web mi nar dw luean khuen-long ern va landing page
+//webpage minar dw
+//website laiy2 nar luam kun click link pai ha kun dai
+// 
+
+</script>
+
+</body>
+
+
+</html>
